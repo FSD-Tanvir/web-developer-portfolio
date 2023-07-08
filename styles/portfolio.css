@@ -1,0 +1,85 @@
+/*==================================
+
+Template Name: Mary Hardy
+Author: Tanvir
+Author URI: 
+Version: 1.0
+Description: An awesome personal portfolio template.
+Support: tanvirfsd1@gmail.com
+
+==================================*/
+
+/*==================================
+
+CSS INDEX
+---------
+1. Common CSS
+2. Nav Section
+==================================*/
+
+/*==================================
+
+1. Common CSS 
+
+==================================*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    width: 200px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-weight: 700;
+    color: #FFF;
+}
+
+/*==================================
+
+2. Nav Section 
+
+==================================*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav li{
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+nav .btn-primary{
+    width: 150px;
+}
