@@ -20,6 +20,7 @@ CSS INDEX
 5. Main Section
 6. About Section 
 7. What I do Section
+8. Resume Section 
 ==================================*/
 
 /*==================================
@@ -65,7 +66,7 @@ body{
     text-align: center;
     font-size: 18px;
     line-height: 30px;
-    margin: 30px 0px;
+    padding: 30px 0px;
 }
 
 /*==================================
@@ -170,6 +171,10 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 120px;
+}
+
 /*==================================
 
 6. About Section 
@@ -178,7 +183,6 @@ main{
 
 .about{
     background-color: #FFF8F3;
-    margin: 120px 0px;
     padding: 120px 150px;
     border-radius: 10px;
 }
@@ -218,6 +222,9 @@ main{
     width: 200px;
     height: 300px;
     padding: 30px 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
 }
 
 .icon{
@@ -234,4 +241,48 @@ main{
 .skill-description{
     color:#757575;
     line-height: 28px;
+    text-align: justify;
+}
+
+/*==================================
+
+8. Resume Section 
+
+==================================*/
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
+}
+
+.resume-container hr {
+    margin:30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
