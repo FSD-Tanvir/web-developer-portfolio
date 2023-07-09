@@ -311,6 +311,15 @@ footer{
     line-height: 28px;
 }
 
+.social-links{
+    display: flex;
+    margin-top: 30px;
+}
+
+.social-links img{
+    margin-right: 24px;
+}
+
 .message-container{
     display: flex;
     flex-direction: column;
