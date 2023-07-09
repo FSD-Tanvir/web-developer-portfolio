@@ -21,6 +21,7 @@ CSS INDEX
 6. About Section 
 7. What I do Section
 8. Resume Section 
+9. Footer Section 
 ==================================*/
 
 /*==================================
@@ -285,4 +286,44 @@ main section{
 .download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/*==================================
+
+9. Footer Section 
+
+==================================*/
+
+footer{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    
+}
+
+.footer-colum{
+    width: 50%;
+}
+
+.contact-details{
+    color: #474747;
+    line-height: 28px;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{ 
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 24px;
+}
+
+input[type="submit"]{
+    width: fit-content;
 }
