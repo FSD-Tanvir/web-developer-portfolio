@@ -346,7 +346,3 @@ input, textarea{
 input[type="submit"]{
     width: fit-content;
 }
-
-.hide{
-     display: none;
-}
