@@ -13,6 +13,7 @@
     .skill-container{
         flex-wrap: wrap;
     }
+    .resume-container,
     .banner,
     .about,
     footer{
@@ -26,6 +27,7 @@
     .skill-container{
         flex-wrap: wrap;
     }
+    .resume-container,
     .about,
     footer{
         padding: 10px;
@@ -48,6 +50,7 @@
         margin: 0 1rem;
     }
 
+    .resume-container,
     .banner,
     .about,
     footer{
